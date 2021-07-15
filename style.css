@@ -1,0 +1,71 @@
+body{
+    background-color: #f1f5f8;
+}nav{
+    display: grid;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-shadow: 2px 2px 8px rgb(223, 226, 226);
+    margin-bottom: 150px;
+    background-color: white;
+}
+
+.nav-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.nav-center .nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.nav-links > li{
+    padding: 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav-center h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container .bg{
+    /* width: 340px; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    box-shadow: 2px 2px 4px #666;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 0px 15px;
+}
+.container .btn{
+    border: 2px solid #000;
+    font-size: 22px;
+    box-shadow: 1px 1px 5px #666;
+    border-radius: 15px;
+    width: 120px;
+    padding: 10px;
+    transition: .4s ease;
+    background-color: white;
+    color: #000;
+}
+.container .btn:hover{
+    cursor: pointer;
+}
